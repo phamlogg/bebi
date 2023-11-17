@@ -2,10 +2,11 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: #FFFBF5;
 }
 
 .main {
-  background: lightpink; /* #FFFBF5 */
   max-width: 1000px;
   min-width: 375px;
   border-radius: 55px;
@@ -20,7 +21,6 @@ body {
 }
 
 .hair-title {
-  background: lightgreen;
   border-radius: 55px;
   display: flex;
   align-items: center;
@@ -57,4 +57,63 @@ body {
 img {
   width: 40%;
   object-fit: contain;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.hair-logo {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  align-items: center;
+  padding: 10px;
+}
+
+.hair-logo span {
+  font-size: 38px;
+  font-weight: 900;
+  color: #45778F;
+}
+
+.hair-menu {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+
+.hair-menu-item-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hair-menu-item-main p {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.hair-menu-item-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.combo-logo {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  align-items: center;
+  padding: 10px;
+}
+
+.combo-logo span {
+  font-size: 38px;
+  font-weight: 900;
+  color: #D9998B;
 }
