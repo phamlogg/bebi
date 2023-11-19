@@ -57,20 +57,28 @@ body {
 img {
   width: 40%;
   object-fit: contain;
+  padding: 25px;
 }
 
 .menu-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
 }
 
+.menu-sub-container {
+  display: flex;
+  flex: auto;
+  width: 50%;
+  min-width: 500px;
+}
 .hair-logo {
   display: flex;
   flex-direction: column;
   width: 10%;
   align-items: center;
-  padding: 10px;
+  padding: 25px;
 }
 
 .hair-logo span {
@@ -82,7 +90,7 @@ img {
 .hair-menu {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 90%;
   justify-content: flex-start;
   margin-right: 10px;
 }
@@ -94,14 +102,19 @@ img {
 }
 
 .hair-menu-item-main p {
-  font-size: 28px;
-  font-weight: 800;
+  font-size: 26px;
+  font-weight: 1000;
 }
 
 .hair-menu-item-desc {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 20px;
+}
+
+.hair-menu-item-desc p {
+  margin-left: 20px;
 }
 
 .combo-logo {
@@ -109,11 +122,23 @@ img {
   flex-direction: column;
   width: 10%;
   align-items: center;
-  padding: 10px;
+  padding: 25px;
 }
 
 .combo-logo span {
   font-size: 38px;
   font-weight: 900;
   color: #D9998B;
+}
+
+.add-on-logo span {
+  color: #468886;
+}
+
+.nail-logo span {
+  color: #7CA0B0;
+}
+
+.art-logo span {
+  color: #468886;
 }
