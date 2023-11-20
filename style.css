@@ -1,144 +1,58 @@
 body {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif !important; 
   background: #FFFBF5;
 }
 
-.main {
-  max-width: 1000px;
-  min-width: 375px;
-  border-radius: 55px;
-  display: flex;
-  flex-flow: row wrap;
-  margin: 0 auto;
-}
-
-.container-1 {
-  width: 100%;
-  display: flex;
-}
-
-.hair-title {
-  border-radius: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  font-size: 115px;
-  max-width: 600px;
-  min-width: 187px;
-  width: 60%;
-}
-
-.hair-title-item:nth-child(1) {
+span:nth-child(1) {
   color: #D9998B;
 }
 
-.hair-title-item:nth-child(2) {
+span:nth-child(2) {
   color: #468886;
 }
-
-.hair-title-item:nth-child(3) {
+span:nth-child(3) {
   color: #7CA0B0;
 }
-
-.hair-title-item:nth-child(4) {
+span:nth-child(4) {
   color: #EDD0B5;
 }
 
 .logo {
-  width: 40%;
-  display: flex;
-  justify-content: center;
+  max-height: 300px;
+  max-width: 300px !important;
 }
 
-img {
-  width: 40%;
-  object-fit: contain;
-  padding: 25px;
+.title span {
+  font-size: 80px;
+  font-weight: 700;
 }
 
-.menu-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+.item-exp {
+  padding-left: 25px !important;
 }
 
-.menu-sub-container {
-  display: flex;
-  flex: auto;
-  width: 50%;
-  min-width: 500px;
-}
-.hair-logo {
-  display: flex;
-  flex-direction: column;
-  width: 10%;
-  align-items: center;
-  padding: 25px;
+.menu-title,
+.menu-title p {
+  font-size: 48px;
 }
 
-.hair-logo span {
-  font-size: 38px;
-  font-weight: 900;
+.hair {
   color: #45778F;
 }
 
-.hair-menu {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  justify-content: flex-start;
-  margin-right: 10px;
-}
-
-.hair-menu-item-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.hair-menu-item-main p {
-  font-size: 26px;
-  font-weight: 1000;
-}
-
-.hair-menu-item-desc {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 20px;
-}
-
-.hair-menu-item-desc p {
-  margin-left: 20px;
-}
-
-.combo-logo {
-  display: flex;
-  flex-direction: column;
-  width: 10%;
-  align-items: center;
-  padding: 25px;
-}
-
-.combo-logo span {
-  font-size: 38px;
-  font-weight: 900;
+.combo {
   color: #D9998B;
 }
 
-.add-on-logo span {
+.add-on {
   color: #468886;
 }
 
-.nail-logo span {
+.care,
+.color {
   color: #7CA0B0;
 }
 
-.art-logo span {
+.art {
   color: #468886;
 }
