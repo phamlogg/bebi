@@ -17,9 +17,15 @@ span:nth-child(4) {
   color: #EDD0B5;
 }
 
+.container {
+  margin: 1em;
+}
+
 .logo {
   max-height: 300px;
   max-width: 300px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
 }
 
 .title span {
@@ -34,6 +40,7 @@ span:nth-child(4) {
 .menu-title,
 .menu-title p {
   font-size: 48px;
+  padding-top: 20px;
 }
 
 .hair {
@@ -55,4 +62,21 @@ span:nth-child(4) {
 
 .art {
   color: #468886;
+}
+
+.logo-icon {
+  max-width: 30px;
+}
+
+@media (min-width: 700px) {
+  .title span {
+    font-size: 8rem;
+  }
+
+  .item-name,
+  .item-price,
+  .item-exp,
+  .item-time {
+    font-size: 1.5rem;
+  }
 }
