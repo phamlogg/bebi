@@ -22,7 +22,6 @@ span:nth-child(4) {
 }
 
 .logo {
-  max-height: 300px;
   max-width: 300px !important;
   padding-top: 30px !important;
   padding-bottom: 30px !important;
